@@ -27,13 +27,9 @@ public class Box<T> {
    * @return the stored value
    */
   public T get() {
-    if (this.item == null){
-      return null;
-    }
-    else{
       return this.item;
     }
-  }
+  
 
   /**
    * Returns whether this box is empty (holds no item).
